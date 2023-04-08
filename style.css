@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.sidebar{
+    background-color:rgb(158, 155, 155);
+    width: 300px;
+    font-family: 'Roboto Condensed', sans-serif;
+    height: 220vh;
+}
+.sidebar nav{
+    padding: 40px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 25px;
+    padding: 45px;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.sidebar nav li :hover
+{
+    color: black;
+}
+.main{
+    background-color: black;
+    width: 80vw;
+}
+.container{
+    display: flex;
+}
+.infocontainer{
+    background-color: rgb(158, 155, 155);
+    height: 70vh;
+    width: 70vw;
+    margin: 120px auto;
+    display: flex;
+    justify-content: space-around;
+    color: white ;
+}
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.devPic img{
+    height: 70vh;
+    float: right;
+}
+.hello{
+    font-size: 25px;
+    font-family: 'Roboto Slab', serif;
+}
+.name{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+}
+.about{
+    font-size: 25px;
+    font-family: 'Roboto Slab', serif;
+}
+.buttons button{
+    padding: 10px;
+    margin-top: 30px;
+    border-style: solid;
+    border-radius: 10px;
+    color:white;
+    background-color:rgb(158, 155, 155);
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.buttons button:hover{
+    background-color:black;
+}
+.contactForm{
+    padding:80px 20px 0px 20px;
+    font-family: 'Roboto Slab', serif;
+}
+.contactForm h1{
+    color: white;
+    text-align: center;
+}
+.contactForm form div{
+    background-color: rgb(158, 155, 155);
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.contactForm form div input{
+    width: 20vw;
+    border-radius: 10px;
+    margin: 6px 0px 0px 0px;
+    padding: 3px;
+}
+#emailHelp{
+    font-size: 15px;
+    color: white;
+}
+#form-check{
+    flex-direction:row;
+}
+#form-check input{
+    width: 15px;
+    margin: 5px 0px;
+}
+.School
+{
+    font-family: 'Roboto Slab', serif;
+    padding: 10px 20px;
+    margin: 20px
+}
+.School h1{
+    color: white;
+}
+.SchoolPic{
+    padding: 10px 40px;
+    margin: 10px 260px;
+}
+.SchoolInfo a{
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    padding: 10px 10px;
+    margin: 5px 200px;
+}
+.SchoolInfo a:hover{
+    color:rgb(158, 155, 155) ;
+}
+
+.JRcollege
+{
+    font-family: 'Roboto Slab', serif;
+    padding: 10px 20px;
+    margin: 20px
+}
+.JRcollege h1{
+    color: white;
+}
+.JRcollegePic{
+    padding: 10px 40px;
+    margin: 10px 260px;
+}
+.JRcollegeInfo a{
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    padding: 10px 10px;
+    margin: 5px 250px;
+}
+.JRcollegeInfo a:hover{
+    color:rgb(158, 155, 155) ;
+}
+
+.SRcollege
+{
+    font-family: 'Roboto Slab', serif;
+    padding: 10px 20px;
+    margin: 20px
+}
+.SRcollege h1{
+    color: white;
+}
+.SRcollegePic{
+    padding: 10px 40px;
+    margin: 10px 260px;
+}
+.SRcollegeInfo a{
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    padding: 10px 10px;
+    margin: 5px 0px;
+}
+.SRcollegeInfo a:hover{
+    color:rgb(158, 155, 155) ;
+}
